@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/work4.garaga-host.ru/webstat"
+AuthUserFile /var/www/vh143350/data/etc/28580660.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
